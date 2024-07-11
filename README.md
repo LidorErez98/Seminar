@@ -35,6 +35,8 @@ While the current model has limitations, the study lays the groundwork for futur
 
 ## Files in Repository
 data/: Contains the dataset used for training and testing.
+
 model/: U-Net model architecture and training scripts.
+
 results/: Evaluation metrics and segmentation results.
 
