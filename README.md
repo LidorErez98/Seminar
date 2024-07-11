@@ -45,4 +45,4 @@ While the current model has limitations, the study lays the groundwork for futur
 
 code/: contains the u-net architecture, training and evaluation scripts.
 
-data/: contains the training and testing data
+seminar/: contains the seminar work.
