@@ -1,4 +1,4 @@
-# Mapping PVs using U-Net
+# Mapping Photovoltaic systems using U-Net
 
 ## Overview
 This repository contains the research work on mapping solar photovoltaic (PV) systems in off-grid Bedouin settlements in the Negev using the U-Net deep learning architecture.
