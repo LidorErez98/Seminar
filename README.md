@@ -42,9 +42,7 @@ This research provides a framework for automating PV system mapping, essential f
 While the current model has limitations, the study lays the groundwork for future improvements and applications in similar challenging environments.
 
 ## Files in Repository
-data/: Contains the dataset used for training and testing.
 
-model/: U-Net model architecture and training scripts.
+code/: contains the u-net architecture, training and evaluation scripts.
 
-results/: Evaluation metrics and segmentation results.
-
+data/: contains the training and testing data
