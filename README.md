@@ -13,27 +13,27 @@ The study aims to automate the detection and mapping of PV systems using high-re
 ## Key Components
 1. Data Collection and Preprocessing
    
-High-resolution satellite images were collected and manually digitized.
+   a. High-resolution satellite images were collected and manually digitized.
 
-Images were segmented into 256x256 patches and labeled for training and testing.
+   b. Images were segmented into 256x256 patches and labeled for training and testing.
 
-3. U-Net Model Implementation
+2. U-Net Model Implementation
    
-The U-Net architecture was used for semantic segmentation of PV systems.
+   a. The U-Net architecture was used for semantic segmentation of PV systems.
 
-Training involved a custom loss function combining focal and dice loss to address class imbalance.
+   b. Training involved a custom loss function combining focal and dice loss to address class imbalance.
 
-4. Model Training and Evaluation
+3. Model Training and Evaluation
    
-The model was trained on the processed dataset and evaluated on separate test data.
+   a. The model was trained on the processed dataset and evaluated on separate test data.
 
-Results indicated challenges due to the imbalanced dataset and complex imagery.
+   b. Results indicated challenges due to the imbalanced dataset and complex imagery.
 
-6. Results and Discussion
+4. Results and Discussion
    
-The model achieved reasonable training and validation losses but struggled with precision and recall.
+   a. The model achieved reasonable training and validation losses but struggled with precision and recall.
 
-Proposed improvements include data augmentation, advanced loss functions, model architecture modifications, and optimizer adjustments.
+   b. Proposed improvements include data augmentation, advanced loss functions, model architecture modifications, and optimizer adjustments.
 
 ## Implications
 This research provides a framework for automating PV system mapping, essential for renewable energy policy and infrastructure development in off-grid communities.
